@@ -8,7 +8,9 @@ import Stairs from "./components/common/Stairs";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <Stairs/>
-    <App />
+    <Stairs>
+      <App></App>
+    </Stairs>
+    
   </BrowserRouter>
 );
