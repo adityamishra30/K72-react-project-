@@ -1,16 +1,19 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import { BrowserRouter } from 'react-router-dom'
+import Stairs from './components/common/Stairs.jsx'
+import NavContext from './context/NavContext.jsx'
 
-import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import App from "./App";
-import "./index.css"; // Tailwind CSS imports
-import Stairs from "./components/common/Stairs";
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <BrowserRouter>
-    <Stairs>
-      <App></App>
-    </Stairs>
-    
-  </BrowserRouter>
-);
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Stairs>
+        <NavContext>
+          <App />
+        </NavContext>
+      </Stairs>
+    </BrowserRouter>
+  </React.StrictMode>,
+)

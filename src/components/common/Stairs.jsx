@@ -18,7 +18,7 @@ const Stairs = (props) => {
         tl.from('.stair', {
             height: 0,
             stagger: {
-                amount: -0.175
+                amount: -0.2
             }
         })
         tl.to('.stair', {
@@ -36,7 +36,7 @@ const Stairs = (props) => {
 
         gsap.from(pageRef.current,{
             opacity:0,
-            delay:0.8,
+            delay:1.3,
             scale:1.2
         })
     }, [currentPath])
