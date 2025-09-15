@@ -23,6 +23,12 @@ const Projects = () => {
       image2:
         "https://i.pinimg.com/736x/07/a3/c8/07a3c8013f4cb2ace9c17142cbfd686b.jpg",
     },
+    {
+      image1:
+        "https://i.pinimg.com/736x/a3/c0/12/a3c012cd53fd3a85b53b6c79d33ebec6.jpg",
+      image2:
+        "https://i.pinimg.com/1200x/2d/fe/a9/2dfea95cc9e6e062f1621666a18dd603.jpg",
+    },
   ];
 
   gsap.registerPlugin(ScrollTrigger);

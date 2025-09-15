@@ -4,7 +4,7 @@ const ProjectCard = ({ image1, image2 }) => {
   return (
     <div className="flex lg:flex-row flex-col w-full gap-6">
       {/* First Image (Left) */}
-      <div className="group relative overflow-hidden w-full lg:w-1/2 h-[500px] cursor-pointer rounded-2xl border-2 border-gray-300">
+      <div className="group relative overflow-hidden w-full lg:w-1/2 h-[500px] cursor-pointer rounded-3xl border-2 border-gray-300">
         <img
           src={image1}
           alt="Project 1"
@@ -18,7 +18,7 @@ const ProjectCard = ({ image1, image2 }) => {
       </div>
 
       {/* Second Image (Right) */}
-      <div className="group relative overflow-hidden w-full lg:w-1/2 h-[500px] cursor-pointer rounded-2xl border-2 border-gray-300">
+      <div className="group relative overflow-hidden w-full lg:w-1/2 h-[500px] cursor-pointer rounded-3xl border-2 border-gray-00">
         <img
           src={image2}
           alt="Project 2"
