@@ -110,7 +110,7 @@ const FullScreenNav = () => {
         </div>
         <div className=" py-36">
           <div className="link origin-top relative border-t-1 border-white">
-            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-7 pt-3 uppercase">
+            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
                 
               Projets
             </h1>
@@ -240,7 +240,7 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className="link origin-top relative border-y-1 border-white">
-            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
+            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
               Home
             </h1>
             <div className="moveLink absolute text-black flex top-0 bg-[#D3FD50]">
@@ -271,7 +271,7 @@ const FullScreenNav = () => {
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7z pt-4 uppercase">
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
                   READ ARTICLES
                 </h2>
                 <img
