@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React, { useContext, useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom"; // Import Link
 import { NavbarContext } from "../../context/NavContext";
 
 const FullScreenNav = () => {
@@ -110,22 +111,23 @@ const FullScreenNav = () => {
         </div>
         <div className=" py-36">
           <div className="link origin-top relative border-t-1 border-white">
-            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                
-              Projets
-            </h1>
+            <Link to="/projects">
+              <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
+                Projects
+              </h1>
+            </Link>
             <div className="moveLink absolute text-black flex top-0 bg-[#D3FD50]">
               <div className="moveX flex items-center">
                 <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
-                  SEE EVERYTHING
+                  To See Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  SEE EVERYTHING
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  To See Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
@@ -134,16 +136,16 @@ const FullScreenNav = () => {
                 />
               </div>
               <div className="moveX flex items-center">
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  SEE EVERYTHING
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  To See Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  SEE EVERYTHING
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  To See Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
@@ -154,21 +156,23 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className="link origin-top relative border-t-1 border-white">
-            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
-              Agence
-            </h1>
+            <Link to="/agency">
+              <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
+                Agency
+              </h1>
+            </Link>
             <div className="moveLink absolute text-black flex top-0 bg-[#D3FD50]">
               <div className="moveX flex items-center">
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  KNOW US
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  To Know Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  KNOW US
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  To Know Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
@@ -177,16 +181,16 @@ const FullScreenNav = () => {
                 />
               </div>
               <div className="moveX flex items-center">
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                    KNOW US
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  To Know Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  KNOW US
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  To Know Everything
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
@@ -202,16 +206,16 @@ const FullScreenNav = () => {
             </h1>
             <div className="moveLink absolute text-black flex top-0 bg-[#D3FD50]">
               <div className="moveX flex items-center">
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  SEND US A FAX
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  TO CONTACT US
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  SEND US A FAX
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  TO CONTACT US
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
@@ -220,16 +224,16 @@ const FullScreenNav = () => {
                 />
               </div>
               <div className="moveX flex items-center">
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  SEND US A FAX
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  TO CONTACT US
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  SEND US A FAX
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  TO CONTACT US
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
@@ -240,21 +244,21 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className="link origin-top relative border-y-1 border-white">
-            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
-              Home
+            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
+              Blog
             </h1>
             <div className="moveLink absolute text-black flex top-0 bg-[#D3FD50]">
               <div className="moveX flex items-center">
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  READ ARTICLES
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  READ ARTICLE
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  READ ARTICLES
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  READ ARTICLE
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
@@ -263,16 +267,16 @@ const FullScreenNav = () => {
                 />
               </div>
               <div className="moveX flex items-center">
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  READ ARTICLES
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  READ ARTICLE
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
                   src="https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---MenuThumbnail-640x290.jpg"
                   alt=""
                 />
-                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-7 pt-4 uppercase">
-                  READ ARTICLES
+                <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
+                  READ ARTICLE
                 </h2>
                 <img
                   className="lg:h-36 h-14 rounded-full shrink-0 lg:w-96 w-32 object-cover"
