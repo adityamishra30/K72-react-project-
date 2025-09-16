@@ -1,26 +1,24 @@
-import React from 'react';
-import Video from "../components/home/video";
-
-import HomeHeroText from '../components/home/HomeHeroText';
-import HomeBottomText from '../components/home/HomeBottomText';
+import React, { useRef } from 'react'
+import Video from '../components/home/Video'
+import HomeHeroText from '../components/home/HomeHeroText'
+import HomeBottomText from '../components/home/HomeBottomText'
+import { useGSAP } from '@gsap/react'
+import gsap from 'gsap'
 
 const Home = () => {
-  return (
-    <div className="text-white relative">
-      {/* Full-screen video background */}
-      <div className="h-screen w-screen fixed top-0 left-0">
-        <Video />
-        {/* Optional overlay to enhance text readability */}
-        <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50"></div>
-      </div>
 
-      {/* Main content layered over the video */}
-      <div className="h-screen w-screen relative pb-5 flex flex-col justify-between">
+
+  return (
+    <div className='text-white'>
+      <div className='h-screen w-screen fixed'>
+        <Video />
+      </div>
+      <div className='h-screen w-screen relative pb-5 overflow-hidden flex flex-col justify-between'>
         <HomeHeroText />
         <HomeBottomText />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
