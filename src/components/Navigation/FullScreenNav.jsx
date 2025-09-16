@@ -1,7 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React, { useContext, useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom"; // Import Link
 import { NavbarContext } from "../../context/NavContext";
 
 const FullScreenNav = () => {
@@ -111,11 +110,9 @@ const FullScreenNav = () => {
         </div>
         <div className=" py-36">
           <div className="link origin-top relative border-t-1 border-white">
-            <Link to="/projects">
-              <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
-                Projects
-              </h1>
-            </Link>
+            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
+              Projects
+            </h1>
             <div className="moveLink absolute text-black flex top-0 bg-[#D3FD50]">
               <div className="moveX flex items-center">
                 <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
@@ -156,11 +153,9 @@ const FullScreenNav = () => {
             </div>
           </div>
           <div className="link origin-top relative border-t-1 border-white">
-            <Link to="/agency">
-              <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
-                Agency
-              </h1>
-            </Link>
+            <h1 className="font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase">
+              Agency
+            </h1>
             <div className="moveLink absolute text-black flex top-0 bg-[#D3FD50]">
               <div className="moveX flex items-center">
                 <h2 className="whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase">
